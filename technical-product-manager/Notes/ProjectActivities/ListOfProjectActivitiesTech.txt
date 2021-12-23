@@ -1,0 +1,13 @@
+how does project actually work?
+
+**	TECHNICAL ASPECTS
+	
+1	coding standards – technology version
+2	versioning tool standards – CI rules, branching strategies
+3	code template – packaging structure
+4	designing - deciding design patterns
+5	build configuration –  CD integrating/automating code for  build, running tests, checking logs etc..
+6	Software quality assurance – using/integrating different tools like sonarQube
+7	Testing Standards –  test coverage,  unit/integration test
+8	Deployment – cloud or not ?? infra required... geolocation, servers, nodes etc
+9	Database configuration/connection – tool, model, design, layout, integrate with code 

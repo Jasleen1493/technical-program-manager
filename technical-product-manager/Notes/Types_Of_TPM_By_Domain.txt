@@ -1,0 +1,44 @@
+Types of TPM By Domain
+
+Domain - WEB
+1. Do you understand "progressive web applications"
+2. Do you understand "Redesign frontend" 
+3. Do you understand "affect on backend systems"
+
+Domain - MOBILE - IOS/Android
+1. Thorough familiarity with Operating system
+2. Best practice to follow
+3. Know abt navigation
+4. Understand UX
+5. Understands how Information as architecture
+6. Understands how information is actually stored behing in backend tier DB
+7. building lightweight 
+
+WEB & MOBILE - FROTEND TPMs
+
+Domain - Backend
+1. Built with scale
+2. Highly reliable 
+eg: Search, recommendation engines, ML, Payment services...etc - various specialization
+
+
+Domain - Data science/BI
+1. Collect lots of data
+2. TPMs- comfortable with how data is manipulated, transposed, stored & visualised
+3. very exploring in this point
+
+Domain - Security/GRC
+eg : GDPR
+
+Domain - Infrastructure          ** TRENDING **
+1. Building cloud
+2. TPM helping teams move to cloud
+3. Understand diff cloud prviders, nuances b/w them, types of storages, types of load balancer
+**Doing AWS Solution Architect, Azure certificate, etc
+
+Domain - Operations
+1. Monitors network
+2. Setting alerts
+3. Bringing together a bridge - resolving issues
+
+

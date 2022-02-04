@@ -35,3 +35,8 @@ Git URL : https://github.com/Jasleen1493/technical-product-manager/tree/master/t
 <ol>
   <li>https://www.mariogerard.com/interview-questions-for-a-technical-program-manager-tpm/</li>
   </ol>
+
+<h3>GIT new commands </h3>
+<ol>
+  <li>https://www.codegrepper.com/code-examples/shell/git+add+commit+in+one+command</li>
+  </ol>

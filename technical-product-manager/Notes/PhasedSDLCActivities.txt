@@ -1,0 +1,138 @@
+The SDLC typically reflects the phased activities described below.
+
+1. Project Initiation
+Prepare a formal project request to initiate all system development and integration activities. The request should include the project objectives, users of the system or application, criticality in terms of confidentiality, integrity and availability, and key time frames for completion.
+
+2. Analysis
+Perform a feasibility study to determine whether the project request should be approved for development. The feasibility study should incorporate:
+-Assessment of the impact on the existing environment;
+-Staff development and resource requirements;
+-Project development cost analysis;
+-Program maintenance costs;
+-Evaluation of alternative project implementation approaches, such as build versus buy and outsourcing;
+-Description of the proposed solution approach;
+-Risks associated with the proposed solution; and
+-Benefit analysis including cost reduction, error reduction, new customers and improved customer service.
+-Information security teams should initiate their own involvement with the project during this phase to ensure that appropriate security concerns have been incorporated into the feasibility study.
+
+3. Business and Operational Requirements Specifications
+Develop business and operational requirements specifications to ensure that the project requirements necessary to support business objectives are understood. Users and development teams generally lead this process. Business requirements should address:
+-Data that is required to support the system or application and how it relates to other data;
+-Frequency of use of the system or application;
+-Required response time for online processing;
+-Function relations and dependencies on other components;
+-Identification of applicable legal or regulatory requirements or constraints; and
+-Anticipated life span of the system or application.
+
+Operational requirements should address:
+
+-Security requirements;
+-Contingency requirements;
+-Distributed and centralized processing requirements;
+-Data input strategy and assumed responsibility;
+-Data retention requirements;
+-Output distribution requirements;
+-Expected transaction volumes, including project transaction growth; and
+-Critical system performance requirements.
+
+This document should also describe the type of development activity that the project represents. Common project types include maintenance, enhancement, new system and emergency change. Criteria should be defined for when a development activity may be assigned to these categories.
+
+Information security teams should be involved throughout the business and operational requirements phase to ensure that security concerns are properly addressed and reflected in the requirements document. The risk assessment methodology is largely performed during this phase, providing early security perspectives to the project team.
+
+4. Functional Specifications
+Transpose the business and operational requirements into functional requirements to reflect the anticipated user experience associated with the system or application. Functional specifications reflect the user’s perspective that has been translated into the preliminary design. For maintenance and enhancement activities, the focus is to document what is changing using a before/after description.
+
+Functional specifications should include:
+
+-Data flow diagrams — tracing of data through all its processing points;
+-Data definitions — definition of data, data relationships and naming conventions;
+-Screen definitions — definition of input fields, range checks, etc.;
+-Inputs — source of input, type of data and description of data;
+-Report definitions — description of reports, data contained in each report, how data values are derived and users that utilize specific reports;
+-Control and security requirements — input edit requirements, audit log trails for critical data from the point of origin to the point of disposition, audit log trails for use of privileges and identification of critical processing areas;
+-System interface requirements — interaction points between this system and other systems, anticipated inputs and outputs, response time expectations, and other intersystem dependencies;
+-Backup, restart and recovery — frequency of backup, rationale behind backup, backup retention requirements, restart requirements specifying how the application should be restarted and recovery requirements;
+-Contingency requirements — analysis to determine how long the application can be unavailable before the business is affected and identification of data sets, software and other items that need to be restored at an off-site processing center;
+-Hardware requirements — communication requirements, disk space, processing equipment, etc.;
+-Service-level requirements — uptime requirements, required response times, critical windows, deadlines for input, deadlines for report distribution, etc.;
+-Capacity requirements — transaction volumes, expected growth, etc.; and
+-Conversion requirements — method used for creating data on the new system, method for reconciling data during conversion, cut-over requirements and process for verifying converted data.
+During the functional specifications process, information security teams should generally play a supportive role, supporting the project team’s effort to capture the preliminary design and functional description of the system or application. Functional specifications should include security-related information such as technical features (e.g., access controls) and operational practices (e.g., awareness and training). Information security teams should review and provide feedback on this document prior to the detailed design phase.
+
+5. Detailed Design Specifications
+Develop detailed design specifications that translate functional specifications into a logical and physical design. Detailed design specifications are developed during the design phase of the SDLC and describe how the system or application is designed to satisfy the requirements documented in the functional specifications.
+
+Detailed design specifications should include the following:
+
+-Database requirements — relationship between data elements;
+-File requirements — description of each file, file access methods, list of fields within a record, data attributes and anticipated number of records;
+-System flow diagram — sequential flow of programs that are executed, their relationships to inputs and outputs, and security provisions between programs;
+-Program requirements — programs used and their purpose, description of formulas and calculations, and interrelationships between programs;
+-System operations requirements — job streams, including purpose of processing, job names used and restart/recovery procedures;
+-Error handling requirements;
+-Backup/recovery procedures;
+-System startup and shutdown procedures;
+-Screen designs — fields in each screen, purpose of each field, description of how each screen is triggered, logical flow of screens specifying screens that pull other screens, input checks performed, and description of error messages;
+-Report designs — data contained in each field of each report and a definition of how each data result is derived; and
+-Security design — description of access control mechanisms, audit log provisions, user authentication and encryption provisions.
+During the detailed design phase, once again, information security teams should support the project team’s effort to design the system to achieve the desired solution. Security professionals should participate in project meetings for major design reviews, including a security design review, and at the request of the project team. As part of the detailed design process, information security teams should assess whether security requirements have been adequately addressed and whether adequate testing plans are in place. They should also review the detailed design specifications prior to the next phase.
+
+6. Development
+The development phase is where the system or application’s security features are developed, configured and enabled. Use the program specifications to describe the program logic and processing requirements. Program specifications are developed as part of the development phase prior to the commencement of programming. These specifications provide the thought process required to determine the steps to code the programs.
+
+Information security teams should retain the right to perform source code reviews for critical aspects of the system or application, including user authentication, authorization and financial transactions. Source code reviews should have an enhanced focus on code provided by third parties, including offshore development organizations.
+
+7. Unit Testing
+Unit testing aims to identify program problems within a standalone environment. Unit test criteria should include:
+-File updating, merging and sorting;
+-All decision logic;
+-All system or application interfaces (integration testing);
+-Invalid transactions and their error handling routines;
+-Restart/recovery routines;
+-Stress testing;
+-Error conditions; and
+-Page counters and overflow headers.
+
+8. System Testing
+During the system testing phase, all program development for the project is completed and testing is performed to ensure that all functionality works as required. The system test environment is typically shared among all programmers with strictly controlled changes to the environment. System test criteria should include:
+-Verification that all functionality is performed as specified by the functional and design specifications;
+-Program interfaces;
+-Other system interfaces;
+-Restart and recovery procedures;
+-Transaction validation and rejection;
+-Transaction processing cycles;
+-System or application performance criteria;
+-System or application output generation;
+-Stress testing;
+-Error handling;
+-Input/output verification;
+-Procedures and restrictions regarding the use of production data;
+-Completeness and accuracy of audit log trails;
+-Security testing (e.g., authentication, authorization);
+-System or application security testing (e.g., ethical hacking); and
+-Code reviews of critical sections of code and code developed externally.
+
+Where possible, system or application security testing should be executed using an automated testing tool. This will support the creation of test harnesses and procedures that can be used for regression testing during future enhancements.
+
+During the system testing phase, information security teams should be heavily involved in reviewing the security tests being written by the project/test team and validating the security testing results. Security teams may also elect to perform a penetration test to validate that the development team did not overlook common security vulnerabilities.
+
+9. Parallel Test Plan
+Where an existing system or application is in place, parallel testing ensures that the functions within a simulated production environment are equivalent to the existing process.
+
+10. Cutover/Installation Plan
+The cutover/installation plan documents the transition from an old system or application to a new one. This plan should address any migration of production data that has not been performed. It should also address the installation activities and coordination with system users. Fallback procedures should be defined in the event of an erroneous transition.
+
+11. Post-Implementation Review
+A post-implementation review ensures that the system or application is operating at a satisfactory level. This review involves soliciting user feedback on the overall effectiveness of the project and achievement of the requirements, timelines, etc. This information provides valuable insight for future projects and identifies potential shortcomings in the SDLC.
+
+Security teams should participate in the post-implementation review to confirm that the security capabilities deployed are satisfactory. At this time, the documentation of all security decisions made in support of the system or application is finalized and variances to the existing security policies and standards are noted. Where variances are permitted on a temporary basis, tracking is initiated to ensure that variances are resolved in accordance with an agreed-upon schedule.
+
+12. Conformance and Defect Tracking
+The project management process should ensure conformance with all aspects of the SDLC. In this context, conformance refers to ensuring that the documents itemized above are created and then reviewed and approved prior to the project moving on to the next phase of the SDLC. Any modifications to a document, once approved, should be reviewed and all impacted groups should agree on the change.
+
+Defect checking tools should be used to monitor and track identified defects during all testing phases. This provides the basis for making informed decisions regarding the status and resolution of any defects.
+
+How Does It All Add Up?
+The SDLC ensures that project development is sufficiently integrated to provide adequate security in the resulting system or application. The SDLC should be documented and project development activities should conform to them; all should be guided by written standards and procedures for each phase. These standards should address design, programming, testing, implementation, documentation and maintenance and be flexible while incorporating security checkpoints to validate the adequacy of controls within the system or application.
+
+ 

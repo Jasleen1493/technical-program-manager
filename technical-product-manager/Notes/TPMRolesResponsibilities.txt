@@ -1,0 +1,54 @@
+# What it takes to be a TPM?  <Roles and Responsibilties of TPMs>
+
+1. Product Management : 
+PM roles in 2 types of spaces - B2B and B2C
+
+In B2C - example "SPOTIFY", a music straming application - a product manager wants endless music streaming feature, where he needs to define "product vision" and be the "customer voice", communicating their needs to team. Need to understand if it's a "Greenfield Developmemt"- means product starting from fresh or an "enhancement to existing feature"
+PM roles - Product vision & customer voice
+
+In B2B - example "AWS", "AZURE"- where business is selling to another business, 2 types of PM : "Inbound PM" - work very closely with dev team to build the product, "Outbound PM" - talk to customers, understands the problem, sell the product itself
+PM roles - what needs to be built and why it needs to be built
+
+Focus on "WHY"part - why it needs to be built covers 2 metrics:
+- Transactional metrics : No. of sales that needs to be achieved, no. of conversions that needs to be done when a project searches done
+- Engagement metrics : Daily active user rates, no. of search queries 
+
+2. Software Development Manager(SDM) :
+Roles:
+- Development : to build architect, developement a scalable microservice usable across organization
+- Hiring : Hire and build a great dev team
+- Performance Management : performance manage team
+
+3. Business/Operations Program Manager
+Roles:
+- Vendor management :
+- Infrastructure Planning : 
+
+4. Technical Program Manager
+Roles :
+- Technical Guidance
+- Program Delivery
+
+--------------------------------------------------------------------------
+
+Basic overview TPM Responsibilties
+
+1. Initiating, facilitating & Delivering Programs - When PM comes with a product vision, TPM initiates discussion to dev teams, who would probably be impacted by this vision, facilitate the conversation, go about creating a plan and delivering back as a program
+2. Communicating effectively & setting expectation - Synced communication at regular cadence, know about stakeholders, what they actually want, status reports revewing
+3. Managing upstream and downstream dependencies - Work across several teams, set right expectations with both upstream and downstream teams and communicating effectively and helping them understand where they stand in a pipe
+4. Navigating blockers - Helping team navigate blockers outside the team, overcoming roadblocks for dev team discussed in DS of sprint
+5. Adding Process when needed - like change management process like code reviews, rolling out changes in more gradual fashion without affecting production workload
+
+------------------------------------------------------------------------------
+
+# How TPM roles differ across industry
+
+
+
+
+
+Ref : https://sapient.udemy.com/course/technical-program-management/learn/lecture/14228492#overview
+
+
+
+
